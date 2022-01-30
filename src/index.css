@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  width: 100%;
+}
+
+.search-container{
+  padding: 16px 0;
+  /* background: #eee; */
+  margin: 10px 0;
+}
+
+.search-container .MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color:#000;
+  border-width:4px;
+}
+
+.MuiFormControl-root{
+  width: 100%;
+}
+
+.main-container{
+  max-width:900px;
+  margin:auto;
+}
+
+.card-title{
+  display: flex;
+  justify-content: center;
+}
+
+.card-main {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+
+a.card-body {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	/* margin: 0 20px; */
+	flex: 0 0 auto;
+	max-width: 210px;
+}
+
+.card-fig {
+	margin: 0;
+}
+
+.card-fig img {
+	border-radius: 15px;
+	box-shadow: 0 0 3px rgba(0 0 0 / 45%);
+	max-height: 300px;
+  transition: all .2s ease-in-out;
+}
+
+.card-body:hover .card-fig img {
+  transform: scale(1.05);
+}
+
+.card-title {
+	display: flex;
+	justify-content: center;
+}
